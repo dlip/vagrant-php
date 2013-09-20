@@ -1,0 +1,24 @@
+[submodule "chef/cookbooks/mysql"]
+	path = chef/cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql
+[submodule "chef/cookbooks/apt"]
+	path = chef/cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt
+[submodule "chef/cookbooks/database"]
+	path = chef/cookbooks/database
+	url = https://github.com/opscode-cookbooks/database
+[submodule "chef/cookbooks/apache2"]
+	path = chef/cookbooks/apache2
+	url = https://github.com/opscode-cookbooks/apache2
+[submodule "chef/cookbooks/php"]
+	path = chef/cookbooks/php
+	url = https://github.com/opscode-cookbooks/php
+[submodule "chef/cookbooks/phpmyadmin"]
+	path = chef/cookbooks/phpmyadmin
+	url = https://github.com/Agiley/chef-phpmyadmin.git
+[submodule "chef/cookbooks/openssl"]
+	path = chef/cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl
+[submodule "chef/cookbooks/build-essential"]
+	path = chef/cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential
