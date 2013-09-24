@@ -16,5 +16,9 @@ override_attributes(
         "server_root_password" => "vagrant",
         "server_repl_password" => "vagrant",
         "server_debian_password" => "vagrant"
+    },
+    "apache" => {
+        "default_site_enabled" => true,
+        "docroot_dir" => "/vagrant/web"
     }
 )
