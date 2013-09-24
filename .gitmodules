@@ -22,3 +22,6 @@
 [submodule "chef/cookbooks/build-essential"]
 	path = chef/cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
+[submodule "chef/cookbooks/xdebug"]
+	path = chef/cookbooks/xdebug
+	url = https://github.com/xforty/chef-xdebug.git

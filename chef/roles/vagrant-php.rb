@@ -8,7 +8,8 @@ run_list(
     "recipe[mysql]",
     "recipe[mysql::server]",
     "recipe[database::mysql]",
-    "recipe[phpmyadmin]"
+    "recipe[phpmyadmin]",
+    "recipe[xdebug]"
 )
 
 override_attributes(
@@ -20,5 +21,9 @@ override_attributes(
     "apache" => {
         "default_site_enabled" => true,
         "docroot_dir" => "/vagrant/web"
+    },
+    "xdebug" => {
+        "remote_enable" => "1",
+        "remote_host" => "192.168.33.1"
     }
 )
