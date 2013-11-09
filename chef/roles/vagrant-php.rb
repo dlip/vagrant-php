@@ -1,4 +1,4 @@
-name "mixjuke-server"
+name "server"
 
 run_list(
     "recipe[apt]",
