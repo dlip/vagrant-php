@@ -1,4 +1,4 @@
-name "server"
+name "vagrant-php"
 
 run_list(
     "recipe[apt]",
